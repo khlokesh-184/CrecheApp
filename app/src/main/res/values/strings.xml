@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">CrecheApp</string>
+    <string name="child_details">Child Details</string>
+    <string name="notifications">Notifications</string>
+    <string name="find_creches">Find Creches</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="et_user_id">User id</string>
+    <string name="et_password">Password</string>
+    <string name="bt_login">Login</string>
+    <string name="tv_forgot_pass">Forgot Password</string>
+    <string name="tv_login">Login</string>
+
+    <string name="subscription_key">6c3c4c7cc0d449a5a7e0a887c14cadd0</string>
+    <string name="endpoint">https://westcentralus.api.cognitive.microsoft.com/face/v1.0</string>
+
+    <string name="childimageURL">http://66f1da07.ngrok.io/child/getchild/photo/</string>
+    <string name="BaseURL">https://creche-app.herokuapp.com</string>
+
+    <!-- Main activity -->
+    <string name="detection">Detection</string>
+    <string name="face_verification">Face to Face Verification</string>
+    <string name="person_verification">Face to Person Verification</string>
+    <string name="verification">Verification</string>
+    <string name="identification">Identification</string>
+    <string name="grouping">Grouping</string>
+    <string name="find_similar_faces">Find Similar Faces</string>
+    <string name="detection_description">Detect faces, face landmarks, pose, smile, glasses, gender, and age.</string>
+    <string name="verification_description">Authentication between two faces or between a face and a person.</string>
+    <string name="grouping_description">Group faces based on similarity.</string>
+    <string name="find_similar_face_description">Search for similar-looking faces.</string>
+    <string name="identification_description">Identify the person from a face.</string>
+
+    <!-- Tips to get subscription key shown on main activity-->
+    <string name="add_subscription_key_tip_title">Subscription Key is Needed</string>
+    <string name="add_subscription_key_tip">Please put your subscription key with its corresponding endpoint to source file \"app/res/values/strings.xml\" to enable Face API calls.</string>
+
+    <!-- Detection activity -->
+    <string name="image">Image:</string>
+    <string name="select_image">Select\nImage</string>
+    <string name="result">Result:</string>
+    <string name="detect">Detect</string>
+
+    <!-- Verification activity -->
+    <string name="verify">Verify</string>
+    <string name="face_0">Face0:</string>
+    <string name="face_1">Face1:</string>
+    <string name="manage_persons">Manage\nPersons</string>
+    <string name="verification_menu">Verification\nMenu</string>
+
+    <!-- Verification activity -->
+    <string name="face">Face:</string>
+    <string name="group">Group</string>
+</resources>
